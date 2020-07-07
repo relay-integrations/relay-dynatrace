@@ -1,0 +1,12 @@
+apiVersion: integration/v1
+kind: Step
+name: template
+version: 1
+summary: Step template
+
+description: |
+  This is a template for a simple step.
+
+build:
+  apiVersion: build/v1
+  kind: Docker

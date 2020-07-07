@@ -1,0 +1,20 @@
+# The image to inherit. Required. Either a string referencing an existing
+# Docker image or an object referencing another builder in this integration.
+image: alpine:latest
+#image:
+#  source: file
+#  file: ../../images/pr
+
+# Change the entrypoint of the image. Optional.
+command: /bin/echo
+
+# Change the command arguments to the entrypoint. Optional.
+args: [--force]
+
+# Change standard input for the entrypoint. Optional.
+input: |
+  This is my pull request description.
+
+# Additional environment variables to define. Optional.
+env:
+  MYENV: value
