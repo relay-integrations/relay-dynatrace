@@ -1,15 +1,15 @@
 apiVersion: integration/v1
 kind: Integration
-name: template
+name: dynatrace
 channel: stable
-version: v20200514
-summary: Integration template
+version: v20200707
+summary: Dynatrace
 license: Apache-2.0
-homepage: https://github.com/relay-integrations/template
-source: https://github.com/relay-integrations/template
+homepage: https://github.com/relay-integrations/relay-dynatrace
+source: https://github.com/relay-integrations/relay-dynatrace
 
 description: |
-  This is a template for creating a Relay Integration repository.
+  Integration with Dynatrace Software Intelligence Platform.
 
 owner:
   name: Puppet, Inc.
@@ -17,5 +17,6 @@ owner:
   url: https://puppet.com
 
 tags:
-- template
+- dynatrace
+- monitoring
 - relay integration

@@ -1,10 +1,10 @@
 apiVersion: integration/v1
 kind: Trigger
-name: template
+name: dynatrace-trigger-event-fired
 version: 1
-summary: Trigger template
+summary: Dynatrace Event Trigger
 description: |
-  This is a template for a simple trigger.
+  This trigger handles Dynatrace Problem Notifications sent to Relay.
 
 responders:
 - webhook
