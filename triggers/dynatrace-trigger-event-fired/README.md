@@ -1,7 +1,5 @@
 # dynatrace-trigger-event-fired
 
-**TODO:** Have Relay build this trigger and publish it under relaysh/dynatrace-trigger-event-fired
-
 This [Dynatrace](www.dynatrace.com) trigger fires when a Dynatrace Problem notification webhook is sent to relay.
 For more information check out the [Dynatrace Problem Notifications webhook documentation](https://www.dynatrace.com/support/help/setup-and-configuration/integrations/third-party-integrations/problem-notification-systems/webhook-integration/)
 
@@ -58,7 +56,7 @@ triggers:
 - name: dynatrace-problem-event
   source:
     type: webhook
-    image: grabnerandi/dynatrace-trigger-event-fired:latest
+    image: relaysh/dynatrace-trigger-event-fired:latest
   binding:
     parameters:
       state: !Data State
