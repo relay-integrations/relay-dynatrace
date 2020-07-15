@@ -2,11 +2,17 @@
 
 This repository holds the integration between Relay and Dynatrace.
 
-## Actions
+## Triggers
 
-| Type | Name | Description |
-|------|-------------|-----| 
-| Trigger | [dynatrace-trigger-event-fired](/triggers/dynatrace-trigger-event-fired) | Handles incoming Dynatrace Problem Notifications |
+| Name        | Description |
+|-------------|-------------| 
+| [dynatrace-trigger-event-fired](/triggers/dynatrace-trigger-event-fired) | Handles incoming Dynatrace Problem Notifications |
+
+## Workflows
+
+| Name       | Description |
+|------------|-------------|
+| [dynatrace-respond-to-problem](/workflows/dynatrace-respond-to-problem) | Receives webhook from dynatrace and posts back a comment |
 
 ## Contributing
 
