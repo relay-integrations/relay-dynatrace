@@ -37,4 +37,4 @@ Here is a screenshot on how this configuration looks like in Dynatrace:
 ![](./custom_integration_dynatrace.png)
 
 Once you run it - either through a *Send test notification* or a real Dynatrace problem notification you will see the workflow run
-![](./example_workflow.png)
+![](./dynatrace-respond-to-problem.png)
