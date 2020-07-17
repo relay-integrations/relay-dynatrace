@@ -29,7 +29,7 @@ Once you have saved this workflow in Relay you can setup the Dynatrace Problem N
 "ProblemImpact" : "{ProblemImpact}",
 "ProblemDetailsText" : "{ProblemDetailsText}",
 "Tags" : "{Tags}",
-"ProblemDetailsJSON" : {ProblemDetailsJSON}
+"ProblemDetailsJSON" : "{ProblemDetailsJSON}"
 }
 ```
 
