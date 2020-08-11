@@ -16,3 +16,6 @@ schemas:
 build:
   apiVersion: build/v1
   kind: Docker
+
+publish:
+  repository: relaysh/dynatrace-trigger-event-fired

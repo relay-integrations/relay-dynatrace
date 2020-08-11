@@ -9,7 +9,7 @@ homepage: https://github.com/relay-integrations/relay-dynatrace
 source: https://github.com/relay-integrations/relay-dynatrace
 
 description: |
-  Integration with Dynatrace Software Intelligence Platform.
+  Dynatrace is a software intelligence company providing application performance management, artificial intelligence for operations, cloud infrastructure monitoring, and digital experience management, with products for the information technology departments and digital business owners of medium and large businesses.
 
 owner:
   name: Puppet, Inc.
@@ -17,6 +17,6 @@ owner:
   url: https://puppet.com
 
 tags:
-- dynatrace
-- monitoring
-- relay integration
+  - monitoring
+  - dynatrace
+  - relay integration
