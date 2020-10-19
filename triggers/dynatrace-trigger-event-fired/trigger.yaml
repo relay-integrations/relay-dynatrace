@@ -2,7 +2,7 @@ apiVersion: integration/v1
 kind: Trigger
 name: dynatrace-trigger-event-fired
 version: 1
-summary: Dynatrace Event Trigger
+summary: Dynatrace event fired
 description: |
   This trigger handles Dynatrace Problem Notifications sent to Relay.
 
