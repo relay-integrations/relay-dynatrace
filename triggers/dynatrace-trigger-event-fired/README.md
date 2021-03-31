@@ -1,6 +1,6 @@
 # dynatrace-trigger-event-fired
 
-This [Dynatrace](www.dynatrace.com) trigger fires when a Dynatrace Problem notification webhook is sent to relay.
+This [Dynatrace](https://www.dynatrace.com/) trigger fires when a Dynatrace Problem notification webhook is sent to relay.
 For more information check out the [Dynatrace Problem Notifications webhook documentation](https://www.dynatrace.com/support/help/setup-and-configuration/integrations/third-party-integrations/problem-notification-systems/webhook-integration/)
 
 ## Data Emitted 
